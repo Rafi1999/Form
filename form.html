@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome</h2>
+    <form action="">
+        <label for="name">Your Name
+            <input type="text" id="name"
+        placeholder="Your Name">
+        </label>
+        <label for="email">Your Email
+            <input type="email" id="email"
+        placeholder="Your Email">
+        </label>
+        <fieldset>
+            <legend>Pick Your class</legend>
+            <label for="six">
+                <input type="radio" name="Class" id="six">
+                Six
+            </label>
+            <label for="seven">
+                <input type="radio" name="Class" id="seven">
+                Seven
+            </label>
+            <label for="eight">
+                <input type="radio" name="Class" id="eight">
+                Eight
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one medium</legend>
+            <label for="bangla">
+                <input type="radio" name="medium" id="bangla">
+                Bangla
+            </label>
+            <label for="english">
+                <input type="radio" name="medium" id="english">
+                English
+            </label>
+            <label for="arabic">
+                <input type="radio" name="medium" id="arabic">
+                Arabic
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more subject</legend>
+            <label for="math">
+                <input type="checkbox" name="subject" id="math">
+                Math
+            </label>
+            <label for="science">
+                <input type="checkbox" name="subject" id="science">
+                Science
+            </label>
+            <label for="ict">
+                <input type="checkbox" name="subject" id="ict">
+                ICT
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="Instruction" id="ins" cols="100" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
